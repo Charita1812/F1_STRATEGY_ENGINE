@@ -3,7 +3,7 @@ A real-world inspired Formula 1 race strategy simulator built using historical l
 
 This project predicts lap times, tyre degradation, pit windows, safety car probability, and undercut potential, and combines them into a unified strategy engine with a Streamlit-based interactive interface.
 
-🎥 Demo:
+🎥 Demo: https://f1strategyengine-8kxwo5whd4gam8cmtyujbs.streamlit.app
 
 
 🎯 Project Objective
@@ -14,48 +14,8 @@ Machine learning prediction models
 Domain-driven feature engineering
 A modular, production-style architecture
 🧠 Strategy Components Implemented
-✔ Lap Time Prediction ✔ Tyre Wear Prediction ✔ Pit Window Prediction ✔ Safety Car Probability Estimation (Approximate) ✔ Undercut Effect Estimation ✔ Unified Strategy Engine
+✔ Lap Time Prediction ✔ Tyre Wear Prediction ✔ Pit Window Prediction ✔ Safety Car Probability Estimation (Approximate) ✔ Undercut Effect Estimation ✔ Unified Strategy Engine.
 
-📂 Project Structure
-f1_strategy_simulator/
-│
-├── data/
-│   ├── raw/                  # Original Kaggle F1 datasets
-│   ├── features/
-│   │   └── features_master.csv
-│   └── processed/
-│       ├── master_lap_by_lap.csv
-│       ├── pit_stop_enriched.csv
-│       └── stint_aggregates.csv
-│
-├── models/
-│   ├── lap_time_predictor.pkl
-│   ├── tyre_wear_predictor.pkl
-│   ├── pit_window_model.pkl
-│   ├── safety_car_model.pkl
-│   └── undercut_model.pkl
-│
-├── src/
-│   ├── data/
-│   │   ├── load_data.py
-│   │   ├── preprocess.py
-│   │   └── feature_engineering.py
-│   │
-│   ├── models/
-│   │   ├── lap_time_model.py
-│   │   ├── tyre_wear_model.py
-│   │   ├── pit_window_model.py
-│   │   ├── safety_car_model.py
-│   │   └── undercut_model.py
-│   │
-│   ├── simulator/
-│   │   └── strategy_engine.py
-│   │
-│   └── app/
-│       └── streamlit_app.py
-│
-├── requirements.txt
-└── README.md
 🔍 Model Overview
 Model	Purpose
 Lap Time Predictor	Predicts next-lap lap time
@@ -90,3 +50,4 @@ Enriched with pit stop and stint-level features
 
 ⚠ Disclaimer
 It is an educational and analytical project inspired by publicly available data.
+
