@@ -37,7 +37,7 @@ This mirrors real F1 race strategy evaluation logic.
 Interactive driver & stint selection
 Strategy recommendations
 Visualization of predicted lap times & pit effects
-Run locally:
+Run locally
 
 streamlit run src/app/streamlit_app.py
 📊 Dataset
