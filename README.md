@@ -33,7 +33,6 @@ Recommend optimal pit timing
 This mirrors real F1 race strategy evaluation logic.
 
 🖥️ Streamlit Application
-The Streamlit UI allows:
 
 Interactive driver & stint selection
 Strategy recommendations
