@@ -42,7 +42,7 @@ Run locally:
 
 streamlit run src/app/streamlit_app.py
 📊 Dataset
-Source: Kaggle Formula 1 World Championship datasets
+Source: Kaggle Formula 1 World Championship datasets(or anyother relevent dataset)
 Granularity: Lap-by-lap
 Time range: Multiple seasons
 Enriched with pit stop and stint-level features
